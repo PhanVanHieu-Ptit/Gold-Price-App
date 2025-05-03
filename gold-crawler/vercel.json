@@ -9,11 +9,11 @@
   "routes": [
     {
       "src": "/api/gold",
-      "dest": "server.js"
+      "dest": "/api/gold.js"
     },
     {
       "src": "/api/crawl",
-      "dest": "cron.js"
+      "dest": "/api/cron.js"
     }
   ]
 }
