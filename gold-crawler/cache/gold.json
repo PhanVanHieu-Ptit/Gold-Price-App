@@ -1,0 +1,83 @@
+{
+  "updatedAt": "2025-05-03T08:30:36.105Z",
+  "prices": [
+    {
+      "name": "VÀNG THẾ GIỚI (XAUUSD)",
+      "buy": "3.240.88"
+    },
+    {
+      "name": "US DOLLAR INDEX (USDX)",
+      "buy": "99.84"
+    },
+    {
+      "name": "SJC 1 LƯỢNG",
+      "buy": "119.300.000",
+      "sell": "121.300.000"
+    },
+    {
+      "name": "DOJI HN",
+      "buy": "119.300.000",
+      "sell": "121.300.000"
+    },
+    {
+      "name": "DOJI HCM",
+      "buy": "119.300.000",
+      "sell": "121.300.000"
+    },
+    {
+      "name": "BTMC SJC",
+      "buy": "118.300.000",
+      "sell": "121.000.000"
+    },
+    {
+      "name": "PHÚ QUÝ SJC",
+      "buy": "118.300.000",
+      "sell": "121.300.000"
+    },
+    {
+      "name": "VÀNG VIỆT NAM SJC",
+      "buy": "119.300.000",
+      "sell": "121.300.000"
+    },
+    {
+      "name": "VIETINBANK SJC",
+      "buy": "119.300.000",
+      "sell": "121.300.000"
+    },
+    {
+      "name": "NHẪN VÀNG VIỆT NAM",
+      "buy": "114.000.000",
+      "sell": "116.500.000"
+    },
+    {
+      "name": "NHẪN TRÒN TRƠN VÀNG RỒNG TL BTMC",
+      "buy": "116.600.000",
+      "sell": "119.700.000"
+    },
+    {
+      "name": "NHẪN TRÒN PHÚ QUÝ 999.9",
+      "buy": "114.500.000",
+      "sell": "117.500.000"
+    },
+    {
+      "name": "NHẪN DOJI HƯNG THỊNH VƯỢNG 9999",
+      "buy": "114.000.000",
+      "sell": "116.500.000"
+    },
+    {
+      "name": "NHẪN SJC 999.9",
+      "buy": "114.000.000",
+      "sell": "116.500.000"
+    },
+    {
+      "name": "BẠC MIẾNG - THỎI PHÚ QUÝ 999 1LƯỢNG",
+      "buy": "1.241.000",
+      "sell": "1.279.000"
+    },
+    {
+      "name": "BẠC THỎI PHÚ QUÝ 999 1KiLO",
+      "buy": "33.093.251",
+      "sell": "34.106.581"
+    }
+  ]
+}
