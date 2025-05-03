@@ -1,5 +1,5 @@
 const cron = require("node-cron");
-const fetchGoldPrices = require("./crawler/fetchGold");
+const fetchGoldPrices = require("../crawler/fetchGold");
 
 // Chạy mỗi 15 phút
 cron.schedule("*/15 * * * *", async () => {
