@@ -1,8 +1,9 @@
 const fs = require("fs");
 const path = require("path");
 
-module.exports = (req, res) => {
-  const filePath = path.join(process.cwd(), "cache/gold.json");
+// Function xử lý chính
+const handler = (req, res) => {
+  const filePath = path.join(process.cwd(), "./cache/gold.json");
 
   if (fs.existsSync(filePath)) {
     const data = fs.readFileSync(filePath, "utf8");
@@ -13,3 +14,22 @@ module.exports = (req, res) => {
     });
   }
 };
+
+// Export cho Vercel
+module.exports = handler;
+
+// Nếu chạy trực tiếp bằng Node
+if (require.main === module) {
+  const express = require("express");
+  const cors = require("cors");
+
+  const app = express();
+  app.use(cors());
+
+  app.get("/api/gold", (req, res) => handler(req, res));
+
+  const PORT = 3001;
+  app.listen(PORT, () =>
+    console.log(`🔗 Server chạy local tại http://localhost:${PORT}/api/gold`)
+  );
+}
