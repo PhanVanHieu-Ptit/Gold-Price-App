@@ -5,6 +5,7 @@ const fetchData = require("../crawler/fetchData");
 // Function xử lý chính
 const handler = (req, res) => {
   const filePath = path.join(process.cwd(), "../cache/gold.json");
+  console.log("filePath: ", filePath);
 
   if (fs.existsSync(filePath)) {
     const data = fs.readFileSync(filePath, "utf8");
