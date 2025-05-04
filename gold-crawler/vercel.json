@@ -12,6 +12,10 @@
       "dest": "/api/gold.js"
     },
     {
+      "src": "/api/gold/v2",
+      "dest": "/api/gold.js"
+    },
+    {
       "src": "/api/crawl",
       "dest": "/api/cron.js"
     }
